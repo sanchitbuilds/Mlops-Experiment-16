@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv("C:/Users/USER/OneDrive/Documents/AssessmentSem5/ML/project1/House Price Prediction Dataset.csv")
+df = pd.read_csv("House Price Prediction Dataset.csv")
 
 print(df.head(5))
 print(df.isnull())
